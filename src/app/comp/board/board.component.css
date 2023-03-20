@@ -1,0 +1,38 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(128, 204, 229);
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 200px));
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    /* grid-template-rows: repeat(3, minmax(100px, 200px)); */
+}
+app-square{
+    display: inline-block;
+    margin: 1px;
+    box-sizing: border-box;
+}
+
+.messagePopup {
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    height: 100%;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.5);
+}

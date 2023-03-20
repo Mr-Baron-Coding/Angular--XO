@@ -1,0 +1,12 @@
+<div class="container">
+    <button mat-raised-button (click)='newGame()'>Start New Game</button>
+    <h1>Current Player: {{ player }} </h1>
+
+    <div class="table-container">
+        <app-square #trigger *ngFor="let val of squares; let i = index" [value]="val" (click)='makeMove(i)'></app-square>
+    </div>
+    <h3>Moves left: {{ movesLeft }} </h3>
+
+    <div class='messagePopup' *ngIf="winner">Player {{ winner }} won the game!</div>
+<div class='messagePopup' *ngIf="draw">Draw!</div>
+</div>

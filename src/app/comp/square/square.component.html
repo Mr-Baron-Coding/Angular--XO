@@ -1,0 +1,10 @@
+<button class="button" *ngIf=!value disableRipple="true">{{ value }}</button>
+<button class='button_X' *ngIf="value === 'X'"> 
+    <span class="material-symbols-outlined">Close
+        </span>
+</button>
+<button class='button_O' *ngIf="value === 'O'">
+    <span class="material-symbols-outlined">
+        radio_button_unchecked
+    </span>
+</button>
