@@ -1,0 +1,42 @@
+{
+  "packageId": "app.web.fourth_eon_380706.twa",
+  "host": "fourth-eon-380706.web.app",
+  "name": "ttt",
+  "launcherName": "ttt",
+  "display": "standalone",
+  "themeColor": "#1976D2",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FAFAFA",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://fourth-eon-380706.web.app/assets/icons/icon-512x512.png",
+  "maskableIconUrl": "https://fourth-eon-380706.web.app/assets/icons/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "E:\\Coding\\Angular\\ttt\\android.keystore",
+    "alias": "Mike"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://fourth-eon-380706.web.app/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://fourth-eon-380706.web.app/",
+  "minSdkVersion": 19,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
